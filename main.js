@@ -4,4 +4,11 @@ let activeLight = 0;
 
 setInterval(changeLight, 1000);
 
-function changeLight() {}
+function changeLight() {
+  circles[activeLight].className = "circle";
+  activeLight++;
+
+  if (activeLight > 2) {
+    activeLight = 0;
+  }
+}
