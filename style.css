@@ -30,3 +30,13 @@ body {
   height: 40px;
   width: 40px;
 }
+
+.circle::after {
+  border-right: 4px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+}
