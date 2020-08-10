@@ -11,4 +11,8 @@ function changeLight() {
   if (activeLight > 2) {
     activeLight = 0;
   }
+
+  const currentLight = circles[activeLight];
+
+  currentLight.className.add(currentLight.getAttribute("color"));
 }
