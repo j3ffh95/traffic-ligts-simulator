@@ -46,12 +46,12 @@ body {
   box-shadow: 0 0 20px 5px #c0392b;
 }
 
-.circle.red {
+.circle.yellow {
   background-color: #f1c40f;
   box-shadow: 0 0 20px 5px #f1c40f;
 }
 
-.circle.red {
+.circle.green {
   background-color: #2ecc71;
   box-shadow: 0 0 20px 5px #2ecc71;
 }

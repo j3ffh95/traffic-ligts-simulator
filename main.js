@@ -13,6 +13,6 @@ function changeLight() {
   }
 
   const currentLight = circles[activeLight];
-
-  currentLight.className.add(currentLight.getAttribute("color"));
+  // console.log(currentLight);
+  currentLight.classList.add(currentLight.getAttribute("color"));
 }
